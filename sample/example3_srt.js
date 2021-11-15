@@ -94,7 +94,7 @@ loadScript('//cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js',functi
 1
 00:00:30,000
 const music = new Audio('./with_video/white_noise1.mp3');
-music.volume = 0.5;
+music.volume = 1.0;
 point = 0;
 startTime = 0;
 stopTime = 0;
