@@ -102,6 +102,7 @@ function study(id) {
 	    if (text == "START") {
 		stop();
 		console.log("if stop()");
+		console.log("水分補給中");
 	    }
 	    point = 0;
 	    music.pause();
@@ -124,6 +125,7 @@ function study(id) {
 	    if (text == "START") {
 		stop();
 		console.log("if stop()");
+		console.log("席離れてまーーーーーーーす");
 	    }
 	    point = 0;
 	    player.pauseVideo();
@@ -145,6 +147,7 @@ function study(id) {
 		if (text == "START") {
 		    stop();
 		    console.log("if stop()");
+		    console.log("ちょっと停止しまーーーーす");
 		}
 		point = 0;
 		player.pauseVideo();
