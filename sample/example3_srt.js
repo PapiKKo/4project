@@ -9,7 +9,7 @@ time.id = "stopwatch";
 document.getElementsByTagName( 'body' )[ 0 ].appendChild(time);
 loadScript('//cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js',function(e){
     loadScript('//cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js',function(e2){
-	URL = "https://teachablemachine.withgoogle.com/models/qzNXZoAh8S/";
+	URL = "https://teachablemachine.withgoogle.com/models/L2MQt0wYW/";
 	model = null;
 	let webcam, labelContainer, maxPredictions;
 	stopwatch = null;
