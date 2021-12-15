@@ -156,6 +156,21 @@ function study(id) {
 	    }
 	    music.pause();
 	}
+	if(currentpose == "手のひら") {
+		if (text == "START") {
+		    stop();
+		    player.pauseVideo();
+		    music.pause();
+		    console.log("if stop()");
+		    console.log("ちょっと停止しまーーーーす");
+		}
+		if (text == "STOP") {
+		    start();
+		    player.playVideo();
+		    music.pause();
+		    console.log("if start()");
+		}
+	}
     }, 1000);
 }
 function stop(id) {
