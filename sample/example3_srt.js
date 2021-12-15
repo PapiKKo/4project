@@ -23,7 +23,7 @@ loadScript('//cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js',functi
             model = await tmImage.load(modelURL, metadataURL);
             maxPredictions = model.getTotalClasses();
 	    // Convenience function to setup a webcam
-            size = 200;
+            size = 400;
             flip = true; // whether to flip the webcam
             webcam = new tmImage.Webcam(size, size, flip); // width, height, flip
             await webcam.setup(); // request access to the webcam
